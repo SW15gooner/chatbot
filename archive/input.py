@@ -29,7 +29,7 @@ class style():
     UNDERLINE = '\033[4m'
     RESET = '\033[0m'
 
-print(style.YELLOW + "Gary Wheller - ChatBot")
+print(style.YELLOW + "SW15Gooner - ChatBot")
 
 ## End
 

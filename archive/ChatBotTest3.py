@@ -30,7 +30,7 @@ class style():
     UNDERLINE = '\033[4m'
     RESET = '\033[0m'
 
-print(style.YELLOW + "Gary Wheller - ChatBot")
+print(style.YELLOW + "ga.whell@live.com - ChatBot")
 
 ## End
 
@@ -111,7 +111,7 @@ class Application(tk.Frame):
         return "break"
 
 root = tk.Tk()
-root.title("AI ChatBot - © Gary Wheller ")
+root.title("AI ChatBot - © ga.whell@live.com ")
 root.wm_geometry("400x400")
 app = Application(root).pack(side="top", fill="both", expand=True)
 root.wm_attributes("-topmost", 1)
